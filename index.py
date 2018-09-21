@@ -1,19 +1,14 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
 @app.route("/home")
 def home():
- return '''
- <div>
-  <p>Multi-line inline template</p>
-  <h4>This is not ideal!</h4> 
- <div>
- ''' 
+ return render_template('home.html')
 
 @app.route("/about")
 def about():
- return "<h1>About!</h1>"
+ return render_template('about.html')
 
  if __name__ == '__main__':
   app.run(debug=True)
