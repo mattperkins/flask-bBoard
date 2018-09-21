@@ -4,7 +4,12 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
- return "<h1>Home!</h1>"
+ return '''
+ <div>
+  <p>Multi-line inline template</p>
+  <h4>This is not ideal!</h4> 
+ <div>
+ ''' 
 
 @app.route("/about")
 def about():
