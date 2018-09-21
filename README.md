@@ -1,3 +1,4 @@
+### freeze a requirements file
 ```
 Add Environment variables
 export FLASK_APP=index.py
