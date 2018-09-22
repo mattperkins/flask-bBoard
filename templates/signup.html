@@ -6,7 +6,7 @@
    {{ form.hidden_tag() }}
    <fieldset class="form-group">
     <legend class="border-bottom mb-4">
-     Signup now!
+     Sign Up Now!
     </legend>
     <div class="form-group">
      {{ form.username.label(class="form-control-label") }}
@@ -72,9 +72,9 @@
 
   </form>
  </div>
- <div class="border-top pt-3">
+ <div class="border-top pt-3" style="margin-bottom:40px;">
   <small class="text-muted">
-   Already have an account? <a href="{{ url_for('login') }}" class="ml-2">Signin</a>
+   Already have an account? <a href="{{ url_for('login') }}" class="ml-2">Login</a>
   </small>
  </div>
 {% endblock content %}
