@@ -5,16 +5,16 @@ posts = [
  # dictionary 1
  {
   'author': 'DORMshed',
-  'title': 'Insert One'
+  'title': 'Insert One',
   'Content': 'Lorem Ipsum',
-  'date_posted', 'September 22, 2018'
- }
+  'date_posted': 'September 22, 2018'
+ },
  # dictionary 2
  {
   'author': 'DORMshed',
-  'title': 'Insert Two'
+  'title': 'Insert Two',
   'Content': 'Lorem Ipsum',
-  'date_posted', 'September 21, 2018'
+  'date_posted': 'September 21, 2018'
  }
 ]
 
