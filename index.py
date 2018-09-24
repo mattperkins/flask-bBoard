@@ -5,6 +5,9 @@ from forms import RegistrationForm, LoginForm
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = '316be1e776a2a03baf117defaf3e75e1'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+
+db = SQLAlchemy(app)
 
 posts = [
  # dictionary 1
